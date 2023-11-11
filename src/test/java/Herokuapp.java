@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class WebsitesLaunch {
+public class Herokuapp {
     @Test
     public void herokuapp_Login() {
         WebDriver driver = new ChromeDriver();
