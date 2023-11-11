@@ -52,11 +52,9 @@ public class WebsitesLaunch {
         driver.navigate().to("https://the-internet.herokuapp.com/login");
         WebElement username = driver.findElement(By.xpath("//input[@id='username']"));
         username.sendKeys("555");
-
         WebElement password = driver.findElement(By.id("password"));
         password.sendKeys("SuperSecretPassword!");
         System.out.println("********** herokuapp_digitalName() **********");
-
         WebElement loginBtn = driver.findElement(By.xpath("//i[@class='fa fa-2x fa-sign-in']"));
         loginBtn.click();
         driver.quit();
